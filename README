@@ -1,0 +1,8 @@
+
+testing
+dbus-run-session -- gnome-shell --nested --wayland
+
+create zip file
+gnome-extensions pack --force --extra-source=schemas/org.gnome.shell.extensions.sticky-window-badge.gschema.xml
+
+

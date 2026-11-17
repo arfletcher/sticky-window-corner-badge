@@ -1,0 +1,16 @@
+{
+  "uuid": "sticky-window-corner-badge@local",
+  "name": "Sticky Window Corner Badge",
+  "description": "Shows clickable floating badges for Always on Visible Workspace and Always on Top.",
+  "shell-version": [
+    "45",
+    "46",
+    "47",
+    "48",
+    "49",
+    "50",
+    "51"
+  ],
+  "settings-schema": "org.gnome.shell.extensions.sticky-window-corner-badge",
+  "version": 3
+}

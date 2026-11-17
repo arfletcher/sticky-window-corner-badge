@@ -1,0 +1,15 @@
+cat << 'EOF' > ~/.local/share/gnome-shell/extensions/sticky-window-corner-badge@local/.gitignore
+# Compiled GSettings binary
+schemas/gschemas.compiled
+
+# Packaged extension archives
+*.shell-extension.zip
+*.zip
+
+# Editor and OS files
+.DS_Store
+*~
+*.swp
+.vscode/
+.idea/
+EOF

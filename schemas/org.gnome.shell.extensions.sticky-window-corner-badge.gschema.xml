@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.sticky-window-corner-badge" path="/org/gnome/shell/extensions/sticky-window-corner-badge/">
+    <key name="badge-size" type="i">
+      <default>14</default>
+      <summary>Badge Icon Size</summary>
+      <description>Icon size in pixels for the corner badges.</description>
+    </key>
+    <key name="badge-spacing" type="i">
+      <default>6</default>
+      <summary>Badge Spacing</summary>
+      <description>Horizontal spacing in pixels between badges.</description>
+    </key>
+    <key name="offset-x" type="i">
+      <default>8</default>
+      <summary>Horizontal Offset (X)</summary>
+      <description>Distance in pixels from the left edge of the window.</description>
+    </key>
+    <key name="offset-y" type="i">
+      <default>8</default>
+      <summary>Vertical Offset (Y)</summary>
+      <description>Distance in pixels from the top edge of the window.</description>
+    </key>
+    <key name="badge-opacity" type="i">
+      <default>255</default>
+      <summary>Badge Opacity</summary>
+      <description>Opacity of the badges from 25 (10%) to 255 (100%).</description>
+    </key>
+    <key name="sticky-color" type="s">
+      <default>'rgba(28, 113, 216, 0.92)'</default>
+      <summary>Workspace Pin Color</summary>
+      <description>Background color for the Always on Visible Workspace badge.</description>
+    </key>
+    <key name="sticky-icon" type="s">
+      <default>'view-pin-symbolic'</default>
+      <summary>Workspace Pin Icon</summary>
+      <description>Icon name for the Always on Visible Workspace badge.</description>
+    </key>
+    <key name="above-color" type="s">
+      <default>'rgba(38, 162, 105, 0.92)'</default>
+      <summary>Always on Top Color</summary>
+      <description>Background color for the Always on Top badge.</description>
+    </key>
+    <key name="above-icon" type="s">
+      <default>'go-top-symbolic'</default>
+      <summary>Always on Top Icon</summary>
+      <description>Icon name for the Always on Top badge.</description>
+    </key>
+  </schema>
+</schemalist>
