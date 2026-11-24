@@ -1,4 +1,5 @@
 import St from 'gi://St';
+import Meta from 'gi://Meta';
 import * as Main from 'resource:///org/gnome/shell/ui/main.js';
 import {Extension} from 'resource:///org/gnome/shell/extensions/extension.js';
 
@@ -71,6 +72,17 @@ export default class StickyWindowBadgeExtension extends Extension {
     _trackActor(actor) {
         const metaWindow = actor.get_meta_window();
         if (!metaWindow || this._trackedWindows.has(metaWindow)) {
+            return;
+        }
+
+        // Skip popup, menu, and other ephemeral window types
+        const windowType = metaWindow.window_type;
+        if (windowType === Meta.WindowType.POPUP_MENU ||
+            windowType === Meta.WindowType.DROPDOWN_MENU ||
+            windowType === Meta.WindowType.MENU ||
+            windowType === Meta.WindowType.TOOLTIP ||
+            windowType === Meta.WindowType.NOTIFICATION ||
+            windowType === Meta.WindowType.SPLASHSCREEN) {
             return;
         }
 
