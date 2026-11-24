@@ -1,5 +1,5 @@
 {
-  "uuid": "sticky-window-corner-badge@local",
+  "uuid": "sticky-window-corner-badge@arfletcher",
   "name": "Sticky Window Corner Badge",
   "description": "Shows clickable floating badges for Always on Visible Workspace and Always on Top.",
   "shell-version": [

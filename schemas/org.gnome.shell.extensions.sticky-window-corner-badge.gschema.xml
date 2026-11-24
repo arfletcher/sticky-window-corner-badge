@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schemalist>
-  <schema id="org.gnome.shell.extensions.sticky-window-corner-badge" path="/org/gnome/shell/extensions/sticky-window-corner-badge/">
+  <schema id="org.gnome.shell.extensions.sticky-window-corner-badge" path="/org/gnome/shell/extensions/sticky-window-corner-badge-arfletcher/">
     <key name="badge-size" type="i">
       <default>14</default>
       <summary>Badge Icon Size</summary>
