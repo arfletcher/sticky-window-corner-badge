@@ -2,6 +2,7 @@
   "uuid": "sticky-window-corner-badge@arfletcher",
   "name": "Sticky Window Corner Badge",
   "description": "Shows clickable floating badges for Always on Visible Workspace and Always on Top.",
+  "url": "https://github.com/arfletcher/sticky-window-corner-badge",
   "shell-version": [
     "45",
     "46",
